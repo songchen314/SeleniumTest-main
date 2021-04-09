@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="10.179" timestamp="2020-11-30T15:58:58.896838" hostname="NNCZStar-iMac.local"><testcase classname="TestCase.test_login" name="test_dome" time="0.003"><failure message="assert False">@pytest.mark.usefixtures("session_dome")
+    @pytest.mark.usefixtures("class_dome")
+    @pytest.mark.usefixtures("fuction_dome")
+    @pytest.mark.dome
+    def test_dome():
+        my_logger.info("cehsi1shuju1")
+        print("11111111")
+&gt;       assert False
+E       assert False
+
+TestCase/test_login.py:20: AssertionError</failure></testcase></testsuite></testsuites>
