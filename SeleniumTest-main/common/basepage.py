@@ -50,6 +50,7 @@ class BasePage:
             logging.exception("等待元素可见失败！！！！")
             # 截图
             self.save_srceenshot(doc)
+            
             raise
 
     # 查找元素
